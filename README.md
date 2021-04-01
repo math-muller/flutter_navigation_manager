@@ -1,16 +1,10 @@
-# flutter_application_1
+# Flutter Navigation Manager 
 
-A new Flutter project.
+Como usar a navegação no flutter de forma correta usando Clean Architecture.
 
-## Getting Started
+Nesse Projeto eu apliquei o principio de Inversão de Dependência com factories para lidar com as dependências e dividindo o sistema em dois componentes:
 
-This project is a starting point for a Flutter application.
+Abstrato - Contém toda a regra de negócio.
+Concreto - Contém todos detalhes de implementação para manipular a regra de negócio.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
